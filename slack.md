@@ -48,7 +48,7 @@
 |   {hotline}- | 특정 주제에 대한 빠른 소통을 위한 채널<br>(업무와 관련된) | &#35;hotline-platform<br>&#35;hotline-hospital | NO    |
 |      {team}- | 팀 내에서만 사용되는 채널                      | &#35;hospital-meeting  |       |
 |       guild- | 특정 관심사를 공유하는 길드 채널<br>(업무와 관련된)     | &#35;guild-frontend<br>&#35;guild-docker |       |
-|      lounge- | 특정 관심사를 공유하는 길드 채널<br>(업무와 관련되지 않은) | &#35;lounge-overwatch<br>&#35;lounge-jujunburi |       |
+|      lounge- | 특정 관심사를 공유하는 길드 채널<br>(업무와 관련되지 않은) | &#35;lounge-lunch |       |
 |      sentry- | 특정 Sentry 수신 채널                     | &#35;sentry-staging<br>&#35;sentry-platform | NO    |
 
 #### 종료 시점이 존재하는 채널
