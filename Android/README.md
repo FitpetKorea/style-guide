@@ -1,5 +1,6 @@
-FitPet Android 스타일 가이드입니다. 구성원들의 의사결정에 따라 수시로 변경될 수 있습니다.
-해당 내용 중 Kotlin lint 규칙과 맞지 않는 부분이 있을 경우 Kotlin lint 규칙을 우선하여 변경하도록 합니다.
+- FitPet Android 스타일 가이드입니다. 구성원들의 의사결정에 따라 수시로 변경될 수 있습니다.
+- 해당 내용 중 Kotlin lint 규칙과 맞지 않는 부분이 있을 경우 Kotlin lint 규칙을 우선하여 변경하도록 합니다.
+
 ## 목차
 - [코드 레이아웃](#코드-레이아웃)
 - [들여쓰기 및 띄어쓰기](#들여쓰기-및-띄어쓰기)
@@ -15,6 +16,7 @@ FitPet Android 스타일 가이드입니다. 구성원들의 의사결정에 따
 - [약어](#약어)
 - [주석](#주석)
 - [프로그래밍 권장사항](#프로그래밍-권장사항)
+
 ## 코드 레이아웃
 ### 들여쓰기 및 띄어쓰기
 - 들여쓰기에는 탭(tab) 을 사용합니다.
@@ -26,6 +28,7 @@ var names: String?
 ```kotlin
 fun ** (lhs: Int, rhs: Int)
 ```
+
 ### 줄바꿈
 - 함수 정의가 최대 길이를 초과하는 경우에는 아래와 같이 줄바꿈합니다.
 ```kotlin
@@ -42,6 +45,7 @@ cancelButtonTitle: "취소", destructiveButtonTitle: "삭제해주세요")
 
 ### 최대 줄 길이
 - 한 줄은 최대 99자를 넘지 않아야 합니다.
+
 ### 빈 줄
 - 빈 줄에는 공백이 포함되지 않도록 합니다.
 - 모든 파일은 빈 줄로 끝나도록 합니다.
@@ -56,6 +60,7 @@ override fun onStart() {​​​​​​​
 // doSomething()
 }​​​​​​​
 ```
+
 ### 임포트
 모듈 임포트는 알파벳 순으로 정렬합니다. 내장 프레임워크를 먼저 임포트하고, 빈 줄로 구분하여 서드파티 프레임워크를 임포트합니다.
 ```kotlin
@@ -65,10 +70,13 @@ import dagger.hilt.android
 import org.json.JSONException
 import timber.log.Timber
 ```
+
 ## 네이밍
+
 ### 클래스
 - 클래스 이름에는 UpperCamelCase를 사용합니다.
 - 클래스 이름에는 접두사<sup>Prefix</sup>를 붙이지 않습니다.
+
 ### 함수
 - 함수 이름에는 lowerCamelCase를 사용합니다.
 - 함수 이름 앞에는 되도록이면 `get`을 붙이지 않습니다.
@@ -83,12 +91,14 @@ fun getName(for user: User): String?
 
 ### 변수
 - 변수 이름에는 lowerCamelCase를 사용합니다.
+
 ### 상수
 - 상수 이름에는 알파벳 대문자와 _를 사용합니다.
 **예:**
 ```kotlin
 val MAX_LINES = 3
 ```
+
 ### 열거형
 - enum의 각 case에는 알파벳 대문자와 _를 사용한다.
 **좋은 예:**
@@ -101,6 +111,7 @@ enum class ErrorCode {
 	INVALID_TYPE = 301,
 }​​​​​​​
 ```
+
 ### 약어
 - 약어로 시작하는 경우 소문자로 표기하고, 그 외의 경우에는 항상 대문자로 표기합니다.
 **좋은 예:**
