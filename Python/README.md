@@ -73,3 +73,6 @@
   - `instance_var_name`
   - `function_parameter_name`
   - `local_var_name`
+
+## Lint
+- [pylint](https://github.com/PyCQA/pylint) & [flake8](https://gitlab.com/pycqa/flake8) & [black](https://github.com/psf/black) 에 적극 의존한다.
