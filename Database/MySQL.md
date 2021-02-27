@@ -38,7 +38,6 @@ ADD COLUMN `updated_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP() ON UPDATE 
 
 - Primary Key는 항상 명시적으로 정의
   - 컬럼명은 id
-  - `INT(10) UNSIGNED` 혹은 `BIGINT(20) UNSIGNED`을 사용
   - 반드시 primary key, auto increment 속성을 지정
 
 - Index의 사용
